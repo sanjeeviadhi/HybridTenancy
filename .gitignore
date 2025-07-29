@@ -1,0 +1,56 @@
+### .NET Core ###
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+.vscode/
+*.code-workspace
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# node_modules
+node_modules/
+wwwroot/node_modules/
+
+# Logs
+Logs/
+*.log
+
+# Database
+*.mdf
+*.ldf
+
+# Entity Framework
+Migrations/
+
+# Rider IDE
+.idea/
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Secrets / sensitive configs
+secrets.json
+appsettings.Development.json
+appsettings.*.local.json
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
